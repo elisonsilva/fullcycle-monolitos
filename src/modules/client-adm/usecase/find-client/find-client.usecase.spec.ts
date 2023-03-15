@@ -7,6 +7,13 @@ const client = new Client({
   name: "Client 1",
   email: "x@x.com",
   address: "Address 1",
+  document: "123456789",
+  street: "Address 1",
+  number: "1",
+  complement: "Complement 1",
+  city: "City 1",
+  state: "State 1",
+  zipcode: "ZipCode 1",
 });
 
 const MockRepository = () => {

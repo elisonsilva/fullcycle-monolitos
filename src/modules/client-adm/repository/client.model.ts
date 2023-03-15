@@ -15,6 +15,27 @@ export class ClientModel extends Model {
   @Column({ allowNull: false })
   email: string;
 
+  @Column({allowNull: false})
+  declare document: string;
+
+  @Column({allowNull: false})
+  declare street: string;
+
+  @Column({allowNull: false})
+  declare number: string;
+
+  @Column({allowNull: false})
+  declare complement: string;
+
+  @Column({allowNull: false})
+  declare city: string;
+
+  @Column({allowNull: false})
+  declare state: string;
+
+  @Column({allowNull: false})
+  declare zipcode: string;
+
   @Column({ allowNull: false })
   address: string;
 
